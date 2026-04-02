@@ -28,7 +28,7 @@ spec:
         fsGroup: 1001
       containers:
         - name: worker
-          image: priyanshukumar56/ai-task-platform-worker:f4a2fe0
+          image: priyanshukumar56/ai-task-platform-worker:c576b48
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
