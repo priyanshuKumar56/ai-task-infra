@@ -28,7 +28,7 @@ spec:
         fsGroup: 1001
       containers:
         - name: worker
-          image: yourdockerhub/ai-task-platform-worker:latest
+          image: priyanshukumar56/ai-task-platform-worker:5e24b36
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
