@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: priyanshukumar56/ai-task-platform-frontend:271fafe
+          image: priyanshukumar56/ai-task-platform-frontend:ab42dc8
           imagePullPolicy: Always
           ports:
             - containerPort: 80
