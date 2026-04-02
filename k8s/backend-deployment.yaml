@@ -29,7 +29,7 @@ spec:
         fsGroup: 1001
       containers:
         - name: backend
-          image: priyanshukumar56/ai-task-platform-backend:57573bf
+          image: priyanshukumar56/ai-task-platform-backend:5e24b36
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
